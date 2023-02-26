@@ -1,0 +1,149 @@
+[0.268s] Invoking command in '/home/gursel/robotics_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs:/home/gursel/robotics_ws/install/ros2_control:/home/gursel/robotics_ws/install/transmission_interface:/home/gursel/robotics_ws/install/joint_limits:/home/gursel/robotics_ws/install/rqt_controller_manager:/home/gursel/robotics_ws/install/ros2controlcli:/home/gursel/robotics_ws/install/robotic_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_manager/lib:/home/gursel/robotics_ws/install/controller_interface/lib:/home/gursel/robotics_ws/install/hardware_interface/lib:/home/gursel/robotics_ws/install/controller_manager_msgs/lib:/usr/local/cuda/lib64:/home/gursel/robotics_ws/install/transmission_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/gursel/robotics_ws/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/gursel/robotics_ws/install/gazebo_ros2_control
+[0.276s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.391s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.392s] -- Found controller_manager: 2.23.0 (/home/gursel/robotics_ws/install/controller_manager/share/controller_manager/cmake)
+[0.417s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.419s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.425s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.434s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.447s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.023s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.024s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.050s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.721s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[1.741s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.761s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.762s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.766s] -- Searching for dependencies of ignition-math6
+[1.767s] -- Looking for OGRE...
+[1.771s] -- Found Ogre Ghadamon (1.9.0)
+[1.771s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.779s] -- Looking for OGRE_Paging...
+[1.779s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.779s] -- Looking for OGRE_Terrain...
+[1.779s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.779s] -- Looking for OGRE_Property...
+[1.779s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.779s] -- Looking for OGRE_RTShaderSystem...
+[1.779s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.779s] -- Looking for OGRE_Volume...
+[1.779s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.780s] -- Looking for OGRE_Overlay...
+[1.780s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.875s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.876s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.876s] -- Searching for dependencies of ignition-transport8
+[1.890s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.899s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.903s] -- Checking for module 'libzmq >= 4'
+[1.911s] --   Found libzmq , version 4.3.4
+[1.934s] -- Checking for module 'uuid'
+[1.942s] --   Found uuid, version 2.37.2
+[1.960s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.961s] -- Searching for dependencies of ignition-msgs5
+[1.976s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.980s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.981s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.981s] -- Searching for dependencies of ignition-common3
+[1.981s] -- Looking for dlfcn.h - found
+[1.981s] -- Looking for libdl - found
+[1.990s] -- Searching for <ignition-common3> component [graphics]
+[1.990s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.990s] -- Searching for dependencies of ignition-common3-graphics
+[1.991s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.992s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.992s] -- Searching for dependencies of ignition-fuel_tools4
+[2.019s] -- Checking for module 'jsoncpp'
+[2.027s] --   Found jsoncpp, version 1.9.5
+[2.049s] -- Checking for module 'libzip'
+[2.058s] --   Found libzip, version 1.7.3
+[2.077s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.077s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.077s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.078s] -- Gazebo version: 11.10
+[2.080s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.090s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[2.780s] -- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.782s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.858s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.859s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.859s] -- Configured cppcheck include dirs: /home/gursel/robotics_ws/src/gazebo_ros2_control/gazebo_ros2_control/include
+[2.859s] -- Configured cppcheck exclude dirs and/or files: 
+[2.860s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.860s] -- Configured cpplint exclude dirs and/or files: 
+[2.861s] -- Added test 'lint_cmake' to check CMake code style
+[2.862s] -- Added test 'uncrustify' to check C / C++ code style
+[2.862s] -- Configured uncrustify additional arguments: 
+[2.862s] -- Added test 'xmllint' to check XML markup files
+[2.864s] -- Configuring done
+[2.932s] -- Generating done
+[2.933s] -- Build files have been written to: /home/gursel/robotics_ws/build/gazebo_ros2_control
+[2.942s] Invoked command in '/home/gursel/robotics_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs:/home/gursel/robotics_ws/install/ros2_control:/home/gursel/robotics_ws/install/transmission_interface:/home/gursel/robotics_ws/install/joint_limits:/home/gursel/robotics_ws/install/rqt_controller_manager:/home/gursel/robotics_ws/install/ros2controlcli:/home/gursel/robotics_ws/install/robotic_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_manager/lib:/home/gursel/robotics_ws/install/controller_interface/lib:/home/gursel/robotics_ws/install/hardware_interface/lib:/home/gursel/robotics_ws/install/controller_manager_msgs/lib:/usr/local/cuda/lib64:/home/gursel/robotics_ws/install/transmission_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/gursel/robotics_ws/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/gursel/robotics_ws/install/gazebo_ros2_control
+[2.944s] Invoking command in '/home/gursel/robotics_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs:/home/gursel/robotics_ws/install/ros2_control:/home/gursel/robotics_ws/install/transmission_interface:/home/gursel/robotics_ws/install/joint_limits:/home/gursel/robotics_ws/install/rqt_controller_manager:/home/gursel/robotics_ws/install/ros2controlcli:/home/gursel/robotics_ws/install/robotic_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_manager/lib:/home/gursel/robotics_ws/install/controller_interface/lib:/home/gursel/robotics_ws/install/hardware_interface/lib:/home/gursel/robotics_ws/install/controller_manager_msgs/lib:/usr/local/cuda/lib64:/home/gursel/robotics_ws/install/transmission_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/gursel/robotics_ws/build/gazebo_ros2_control -- -j8 -l8
+[2.979s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o[0m
+[2.979s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o[0m
+[7.421s] In file included from [01m[K/home/gursel/robotics_ws/install/controller_manager/include/controller_manager/controller_manager.hpp:43[m[K,
+[7.421s]                  from [01m[K/home/gursel/robotics_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp:42[m[K,
+[7.421s]                  from [01m[K/home/gursel/robotics_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[7.421s] [01m[K/opt/ros/humble/include/diagnostic_updater/diagnostic_updater.hpp:[m[K In constructor ‘[01m[Kdiagnostic_updater::Updater::Updater(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeClockInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeParametersInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeTimersInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeTopicsInterface>, double)[m[K’:
+[7.421s] [01m[K/opt/ros/humble/include/diagnostic_updater/diagnostic_updater.hpp:389:55:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Kdouble[m[K’ to ‘[01m[Krcl_duration_value_t[m[K’ {aka ‘[01m[Klong int[m[K’} may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wfloat-conversion-Wfloat-conversion]8;;[m[K]
+[7.421s]   389 |     period_(rclcpp::Duration::from_nanoseconds([01;35m[Kperiod * 1e9[m[K)),
+[7.421s]       |                                                [01;35m[K~~~~~~~^~~~~[m[K
+[7.425s] [01m[K/opt/ros/humble/include/diagnostic_updater/diagnostic_updater.hpp:399:57:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Kdouble[m[K’ to ‘[01m[Krcl_duration_value_t[m[K’ {aka ‘[01m[Klong int[m[K’} may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wfloat-conversion-Wfloat-conversion]8;;[m[K]
+[7.425s]   399 |     period_ = rclcpp::Duration::from_nanoseconds([01;35m[Kperiod * 1e9[m[K);
+[7.425s]       |                                                  [01;35m[K~~~~~~~^~~~~[m[K
+[7.425s] [01m[K/opt/ros/humble/include/diagnostic_updater/diagnostic_updater.hpp:[m[K In member function ‘[01m[Kvoid diagnostic_updater::Updater::setPeriod(double)[m[K’:
+[7.425s] [01m[K/opt/ros/humble/include/diagnostic_updater/diagnostic_updater.hpp:423:57:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Kdouble[m[K’ to ‘[01m[Krcl_duration_value_t[m[K’ {aka ‘[01m[Klong int[m[K’} may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wfloat-conversion-Wfloat-conversion]8;;[m[K]
+[7.425s]   423 |     setPeriod(rclcpp::Duration::from_nanoseconds([01;35m[Kperiod * 1e9[m[K));
+[7.425s]       |                                                  [01;35m[K~~~~~~~^~~~~[m[K
+[7.426s] [01m[K/opt/ros/humble/include/diagnostic_updater/diagnostic_updater.hpp:[m[K In member function ‘[01m[Kvoid diagnostic_updater::Updater::broadcast(int, std::string)[m[K’:
+[7.426s] [01m[K/opt/ros/humble/include/diagnostic_updater/diagnostic_updater.hpp:456:22:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+[7.426s]   456 |       status.summary([01;35m[Klvl[m[K, msg);
+[7.426s]       |                      [01;35m[K^~~[m[K
+[9.848s] [01m[K/home/gursel/robotics_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type gazebo_ros2_control::GazeboSystem::perform_command_mode_switch(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[9.848s] [01m[K/home/gursel/robotics_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:515:77:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr gazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>& gazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>::operator=(const gazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[9.848s]   515 |       this->dataPtr->joint_control_methods_[mimic_joint.mimicked_joint_index[01;35m[K][m[K;
+[9.848s]       |                                                                             [01;35m[K^[m[K
+[9.848s] In file included from [01m[K/home/gursel/robotics_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp:25[m[K,
+[9.848s]                  from [01m[K/home/gursel/robotics_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:22[m[K:
+[9.848s] [01m[K/home/gursel/robotics_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:43:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>[m[K’ has user-provided ‘[01m[Kgazebo_ros2_control::SafeEnum<ENUM, UNDERLYING>::SafeEnum(const gazebo_ros2_control::SafeEnum<ENUM, UNDERLYING>&) [with ENUM = gazebo_ros2_control::GazeboSystemInterface::ControlMethod_; UNDERLYING = unsigned int][m[K’
+[9.848s]    43 |   [01;36m[KSafeEnum[m[K(const SafeEnum & original)
+[9.848s]       |   [01;36m[K^~~~~~~~[m[K
+[12.786s] [ 75%] [32m[1mLinking CXX shared library libgazebo_hardware_plugins.so[0m
+[13.198s] [ 75%] Built target gazebo_hardware_plugins
+[14.771s] [100%] [32m[1mLinking CXX shared library libgazebo_ros2_control.so[0m
+[15.647s] [100%] Built target gazebo_ros2_control
+[15.655s] Invoked command in '/home/gursel/robotics_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs:/home/gursel/robotics_ws/install/ros2_control:/home/gursel/robotics_ws/install/transmission_interface:/home/gursel/robotics_ws/install/joint_limits:/home/gursel/robotics_ws/install/rqt_controller_manager:/home/gursel/robotics_ws/install/ros2controlcli:/home/gursel/robotics_ws/install/robotic_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_manager/lib:/home/gursel/robotics_ws/install/controller_interface/lib:/home/gursel/robotics_ws/install/hardware_interface/lib:/home/gursel/robotics_ws/install/controller_manager_msgs/lib:/usr/local/cuda/lib64:/home/gursel/robotics_ws/install/transmission_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/gursel/robotics_ws/build/gazebo_ros2_control -- -j8 -l8
+[15.674s] Invoking command in '/home/gursel/robotics_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs:/home/gursel/robotics_ws/install/ros2_control:/home/gursel/robotics_ws/install/transmission_interface:/home/gursel/robotics_ws/install/joint_limits:/home/gursel/robotics_ws/install/rqt_controller_manager:/home/gursel/robotics_ws/install/ros2controlcli:/home/gursel/robotics_ws/install/robotic_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_manager/lib:/home/gursel/robotics_ws/install/controller_interface/lib:/home/gursel/robotics_ws/install/hardware_interface/lib:/home/gursel/robotics_ws/install/controller_manager_msgs/lib:/usr/local/cuda/lib64:/home/gursel/robotics_ws/install/transmission_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/gursel/robotics_ws/build/gazebo_ros2_control
+[15.679s] -- Install configuration: ""
+[15.679s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[15.681s] -- Set runtime path of "/home/gursel/robotics_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so" to ""
+[15.681s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[15.682s] -- Set runtime path of "/home/gursel/robotics_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so" to ""
+[15.682s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[15.683s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[15.683s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/include/gazebo_ros2_control
+[15.683s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[15.683s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[15.683s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[15.683s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml
+[15.683s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[15.683s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[15.683s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[15.683s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[15.683s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[15.683s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[15.683s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[15.683s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[15.683s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[15.684s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[15.684s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[15.684s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[15.684s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[15.684s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.684s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.684s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[15.684s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[15.684s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[15.684s] -- Installing: /home/gursel/robotics_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[15.687s] Invoked command in '/home/gursel/robotics_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs:/home/gursel/robotics_ws/install/ros2_control:/home/gursel/robotics_ws/install/transmission_interface:/home/gursel/robotics_ws/install/joint_limits:/home/gursel/robotics_ws/install/rqt_controller_manager:/home/gursel/robotics_ws/install/ros2controlcli:/home/gursel/robotics_ws/install/robotic_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_manager/lib:/home/gursel/robotics_ws/install/controller_interface/lib:/home/gursel/robotics_ws/install/hardware_interface/lib:/home/gursel/robotics_ws/install/controller_manager_msgs/lib:/usr/local/cuda/lib64:/home/gursel/robotics_ws/install/transmission_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/gursel/robotics_ws/build/gazebo_ros2_control

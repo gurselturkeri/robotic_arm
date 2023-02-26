@@ -1,0 +1,81 @@
+[0.599s] Invoking command in '/home/gursel/robotics_ws/src/ros2_control/ros2controlcli': AMENT_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_manager/lib:/home/gursel/robotics_ws/install/controller_interface/lib:/home/gursel/robotics_ws/install/hardware_interface/lib:/home/gursel/robotics_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gursel/robotics_ws/build/ros2controlcli/prefix_override:/home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages:/home/gursel/robotics_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/gursel/robotics_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2controlcli build --build-base /home/gursel/robotics_ws/build/ros2controlcli/build install --record /home/gursel/robotics_ws/build/ros2controlcli/install.log --single-version-externally-managed
+[0.831s] running egg_info
+[0.831s] creating ../../../build/ros2controlcli/ros2controlcli.egg-info
+[0.831s] writing ../../../build/ros2controlcli/ros2controlcli.egg-info/PKG-INFO
+[0.831s] writing dependency_links to ../../../build/ros2controlcli/ros2controlcli.egg-info/dependency_links.txt
+[0.831s] writing entry points to ../../../build/ros2controlcli/ros2controlcli.egg-info/entry_points.txt
+[0.832s] writing requirements to ../../../build/ros2controlcli/ros2controlcli.egg-info/requires.txt
+[0.832s] writing top-level names to ../../../build/ros2controlcli/ros2controlcli.egg-info/top_level.txt
+[0.832s] writing manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[0.833s] reading manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[0.834s] writing manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[0.834s] running build
+[0.834s] running build_py
+[0.834s] creating /home/gursel/robotics_ws/build/ros2controlcli/build
+[0.834s] creating /home/gursel/robotics_ws/build/ros2controlcli/build/lib
+[0.834s] creating /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli
+[0.834s] copying ros2controlcli/__init__.py -> /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli
+[0.834s] creating /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.834s] copying ros2controlcli/verb/list_controllers.py -> /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.834s] copying ros2controlcli/verb/switch_controllers.py -> /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.834s] copying ros2controlcli/verb/list_hardware_components.py -> /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.834s] copying ros2controlcli/verb/list_controller_types.py -> /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.834s] copying ros2controlcli/verb/list_hardware_interfaces.py -> /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.835s] copying ros2controlcli/verb/__init__.py -> /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.835s] copying ros2controlcli/verb/reload_controller_libraries.py -> /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.835s] copying ros2controlcli/verb/set_controller_state.py -> /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.835s] copying ros2controlcli/verb/load_controller.py -> /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.835s] copying ros2controlcli/verb/view_controller_chains.py -> /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.835s] copying ros2controlcli/verb/unload_controller.py -> /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.835s] creating /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+[0.835s] copying ros2controlcli/command/__init__.py -> /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+[0.835s] copying ros2controlcli/command/control.py -> /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+[0.835s] creating /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/api
+[0.835s] copying ros2controlcli/api/__init__.py -> /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/api
+[0.835s] running install
+[0.836s] running install_lib
+[0.836s] creating /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli
+[0.836s] creating /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.836s] copying /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controllers.py -> /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.836s] copying /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/switch_controllers.py -> /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.836s] copying /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_components.py -> /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.837s] copying /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controller_types.py -> /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.837s] copying /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_interfaces.py -> /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.837s] copying /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/__init__.py -> /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.837s] copying /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/reload_controller_libraries.py -> /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.837s] copying /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/set_controller_state.py -> /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.837s] copying /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/load_controller.py -> /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.837s] copying /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/view_controller_chains.py -> /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.837s] copying /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/unload_controller.py -> /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.837s] creating /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[0.837s] copying /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/command/__init__.py -> /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[0.837s] copying /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/command/control.py -> /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[0.837s] copying /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/__init__.py -> /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli
+[0.837s] creating /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api
+[0.837s] copying /home/gursel/robotics_ws/build/ros2controlcli/build/lib/ros2controlcli/api/__init__.py -> /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api
+[0.838s] byte-compiling /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_controllers.py to list_controllers.cpython-310.pyc
+[0.838s] byte-compiling /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/switch_controllers.py to switch_controllers.cpython-310.pyc
+[0.839s] byte-compiling /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_hardware_components.py to list_hardware_components.cpython-310.pyc
+[0.839s] byte-compiling /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_controller_types.py to list_controller_types.cpython-310.pyc
+[0.839s] byte-compiling /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_hardware_interfaces.py to list_hardware_interfaces.cpython-310.pyc
+[0.840s] byte-compiling /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/__init__.py to __init__.cpython-310.pyc
+[0.840s] byte-compiling /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/reload_controller_libraries.py to reload_controller_libraries.cpython-310.pyc
+[0.840s] byte-compiling /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/set_controller_state.py to set_controller_state.cpython-310.pyc
+[0.840s] byte-compiling /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/load_controller.py to load_controller.cpython-310.pyc
+[0.841s] byte-compiling /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/view_controller_chains.py to view_controller_chains.cpython-310.pyc
+[0.842s] byte-compiling /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/unload_controller.py to unload_controller.cpython-310.pyc
+[0.842s] byte-compiling /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command/__init__.py to __init__.cpython-310.pyc
+[0.842s] byte-compiling /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command/control.py to control.cpython-310.pyc
+[0.842s] byte-compiling /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/__init__.py to __init__.cpython-310.pyc
+[0.843s] byte-compiling /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api/__init__.py to __init__.cpython-310.pyc
+[0.843s] running install_data
+[0.843s] copying package.xml -> /home/gursel/robotics_ws/install/ros2controlcli/share/ros2controlcli
+[0.844s] creating /home/gursel/robotics_ws/install/ros2controlcli/share/ament_index
+[0.844s] creating /home/gursel/robotics_ws/install/ros2controlcli/share/ament_index/resource_index
+[0.844s] creating /home/gursel/robotics_ws/install/ros2controlcli/share/ament_index/resource_index/packages
+[0.844s] copying resource/ros2controlcli -> /home/gursel/robotics_ws/install/ros2controlcli/share/ament_index/resource_index/packages
+[0.844s] running install_egg_info
+[0.845s] Copying ../../../build/ros2controlcli/ros2controlcli.egg-info to /home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli-2.23.0-py3.10.egg-info
+[0.846s] running install_scripts
+[0.861s] writing list of installed files to '/home/gursel/robotics_ws/build/ros2controlcli/install.log'
+[0.886s] Invoked command in '/home/gursel/robotics_ws/src/ros2_control/ros2controlcli' returned '0': AMENT_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_manager/lib:/home/gursel/robotics_ws/install/controller_interface/lib:/home/gursel/robotics_ws/install/hardware_interface/lib:/home/gursel/robotics_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gursel/robotics_ws/build/ros2controlcli/prefix_override:/home/gursel/robotics_ws/install/ros2controlcli/lib/python3.10/site-packages:/home/gursel/robotics_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/gursel/robotics_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2controlcli build --build-base /home/gursel/robotics_ws/build/ros2controlcli/build install --record /home/gursel/robotics_ws/build/ros2controlcli/install.log --single-version-externally-managed

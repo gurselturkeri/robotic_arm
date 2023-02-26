@@ -1,0 +1,21 @@
+[0.703s] Invoking command in '/home/gursel/robotics_ws/src/robotic_arm': PYTHONPATH=/home/gursel/robotics_ws/build/robotic_arm/prefix_override:/home/gursel/robotics_ws/install/robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robotic_arm build --build-base /home/gursel/robotics_ws/build/robotic_arm/build install --record /home/gursel/robotics_ws/build/robotic_arm/install.log --single-version-externally-managed
+[0.946s] running egg_info
+[0.947s] writing ../../build/robotic_arm/robotic_arm.egg-info/PKG-INFO
+[0.947s] writing dependency_links to ../../build/robotic_arm/robotic_arm.egg-info/dependency_links.txt
+[0.947s] writing entry points to ../../build/robotic_arm/robotic_arm.egg-info/entry_points.txt
+[0.947s] writing requirements to ../../build/robotic_arm/robotic_arm.egg-info/requires.txt
+[0.947s] writing top-level names to ../../build/robotic_arm/robotic_arm.egg-info/top_level.txt
+[0.949s] reading manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+[0.949s] writing manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+[0.949s] running build
+[0.950s] running build_py
+[0.950s] running install
+[0.950s] running install_lib
+[0.951s] running install_data
+[0.951s] running install_egg_info
+[0.953s] removing '/home/gursel/robotics_ws/install/robotic_arm/lib/python3.10/site-packages/robotic_arm-0.0.0-py3.10.egg-info' (and everything under it)
+[0.953s] Copying ../../build/robotic_arm/robotic_arm.egg-info to /home/gursel/robotics_ws/install/robotic_arm/lib/python3.10/site-packages/robotic_arm-0.0.0-py3.10.egg-info
+[0.954s] running install_scripts
+[0.971s] Installing trajectory_msg script to /home/gursel/robotics_ws/install/robotic_arm/lib/robotic_arm
+[0.971s] writing list of installed files to '/home/gursel/robotics_ws/build/robotic_arm/install.log'
+[1.077s] Invoked command in '/home/gursel/robotics_ws/src/robotic_arm' returned '0': PYTHONPATH=/home/gursel/robotics_ws/build/robotic_arm/prefix_override:/home/gursel/robotics_ws/install/robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robotic_arm build --build-base /home/gursel/robotics_ws/build/robotic_arm/build install --record /home/gursel/robotics_ws/build/robotic_arm/install.log --single-version-externally-managed

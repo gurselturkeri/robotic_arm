@@ -1,0 +1,4 @@
+[console_scripts]
+spawner = controller_manager.spawner:main
+unspawner = controller_manager.unspawner:main
+

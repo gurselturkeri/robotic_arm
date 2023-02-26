@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/robotic_arm/robotic_arm.egg-info
+writing ../../build/robotic_arm/robotic_arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/robotic_arm/robotic_arm.egg-info/dependency_links.txt
+writing entry points to ../../build/robotic_arm/robotic_arm.egg-info/entry_points.txt
+writing requirements to ../../build/robotic_arm/robotic_arm.egg-info/requires.txt
+writing top-level names to ../../build/robotic_arm/robotic_arm.egg-info/top_level.txt
+writing manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+reading manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+writing manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/gursel/robotics_ws/build/robotic_arm/build
+creating /home/gursel/robotics_ws/build/robotic_arm/build/lib
+creating /home/gursel/robotics_ws/build/robotic_arm/build/lib/robotic_arm
+copying robotic_arm/__init__.py -> /home/gursel/robotics_ws/build/robotic_arm/build/lib/robotic_arm
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/gursel/robotics_ws/install/robotic_arm/lib/python3.10/site-packages/robotic_arm
+copying /home/gursel/robotics_ws/build/robotic_arm/build/lib/robotic_arm/__init__.py -> /home/gursel/robotics_ws/install/robotic_arm/lib/python3.10/site-packages/robotic_arm
+byte-compiling /home/gursel/robotics_ws/install/robotic_arm/lib/python3.10/site-packages/robotic_arm/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/gursel/robotics_ws/install/robotic_arm/share/ament_index
+creating /home/gursel/robotics_ws/install/robotic_arm/share/ament_index/resource_index
+creating /home/gursel/robotics_ws/install/robotic_arm/share/ament_index/resource_index/packages
+copying resource/robotic_arm -> /home/gursel/robotics_ws/install/robotic_arm/share/ament_index/resource_index/packages
+copying package.xml -> /home/gursel/robotics_ws/install/robotic_arm/share/robotic_arm
+creating /home/gursel/robotics_ws/install/robotic_arm/share/robotic_arm/launch
+copying launch/controller.launch.py -> /home/gursel/robotics_ws/install/robotic_arm/share/robotic_arm/launch
+copying launch/rviz.launch.py -> /home/gursel/robotics_ws/install/robotic_arm/share/robotic_arm/launch
+copying launch/gazebo.launch.py -> /home/gursel/robotics_ws/install/robotic_arm/share/robotic_arm/launch
+creating /home/gursel/robotics_ws/install/robotic_arm/share/robotic_arm/urdf
+copying urdf/robotic_arm.urdf -> /home/gursel/robotics_ws/install/robotic_arm/share/robotic_arm/urdf
+creating /home/gursel/robotics_ws/install/robotic_arm/share/robotic_arm/config
+copying config/jtc.yaml -> /home/gursel/robotics_ws/install/robotic_arm/share/robotic_arm/config
+running install_egg_info
+Copying ../../build/robotic_arm/robotic_arm.egg-info to /home/gursel/robotics_ws/install/robotic_arm/lib/python3.10/site-packages/robotic_arm-0.0.0-py3.10.egg-info
+running install_scripts
+Installing trajectory_msg script to /home/gursel/robotics_ws/install/robotic_arm/lib/robotic_arm
+writing list of installed files to '/home/gursel/robotics_ws/build/robotic_arm/install.log'

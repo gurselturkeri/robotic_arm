@@ -1,0 +1,96 @@
+[0.014s] Invoking command in '/home/gursel/robotics_ws/build/controller_manager': CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs:/home/gursel/robotics_ws/install/ros2_control:/home/gursel/robotics_ws/install/transmission_interface:/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/joint_limits:/home/gursel/robotics_ws/install/rqt_controller_manager:/home/gursel/robotics_ws/install/ros2controlcli:/home/gursel/robotics_ws/install/robotic_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_interface/lib:/home/gursel/robotics_ws/install/hardware_interface/lib:/home/gursel/robotics_ws/install/controller_manager_msgs/lib:/usr/local/cuda/lib64:/home/gursel/robotics_ws/install/transmission_interface/lib:/home/gursel/robotics_ws/install/controller_manager/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/gursel/robotics_ws/build/controller_manager -- -j8 -l8
+[0.054s] [  6%] Built target gmock_main
+[0.057s] [ 15%] Built target gmock
+[0.058s] [ 18%] Built target ament_cmake_python_copy_controller_manager
+[0.058s] [ 21%] Built target controller_manager
+[0.060s] [ 21%] Built target ament_cmake_python_copy_controller_manager_setup
+[0.088s] [ 27%] Built target test_chainable_controller
+[0.088s] [ 33%] Built target test_controller
+[0.090s] [ 39%] Built target test_controller_failed_init
+[0.099s] [ 45%] Built target test_controller_with_interfaces
+[0.109s] [ 51%] Built target ros2_control_node
+[0.125s] [ 57%] Built target test_controller_manager
+[0.131s] [ 63%] Built target test_controller_manager_with_namespace.cpp
+[0.139s] [ 75%] Built target test_controllers_chaining_with_controller_manager
+[0.140s] [ 75%] Built target test_controller_manager_srvs
+[0.149s] [ 87%] Built target test_spawner_unspawner
+[0.149s] [ 87%] Built target test_hardware_management_srvs
+[0.163s] [ 93%] Built target test_load_controller
+[0.171s] [100%] Built target test_release_interfaces
+[0.341s] running egg_info
+[0.341s] writing controller_manager.egg-info/PKG-INFO
+[0.342s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[0.342s] writing entry points to controller_manager.egg-info/entry_points.txt
+[0.342s] writing top-level names to controller_manager.egg-info/top_level.txt
+[0.343s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[0.344s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[0.347s] running install_scripts
+[0.366s] running egg_info
+[0.366s] [100%] Built target ament_cmake_python_build_controller_manager_egg
+[0.366s] writing controller_manager.egg-info/PKG-INFO
+[0.366s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[0.367s] writing entry points to controller_manager.egg-info/entry_points.txt
+[0.367s] writing top-level names to controller_manager.egg-info/top_level.txt
+[0.368s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[0.368s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[0.370s] Installing spawner script to scripts
+[0.370s] Installing unspawner script to scripts
+[0.394s] [100%] Built target ament_cmake_python_build_controller_manager_scripts
+[0.403s] Invoked command in '/home/gursel/robotics_ws/build/controller_manager' returned '0': CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs:/home/gursel/robotics_ws/install/ros2_control:/home/gursel/robotics_ws/install/transmission_interface:/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/joint_limits:/home/gursel/robotics_ws/install/rqt_controller_manager:/home/gursel/robotics_ws/install/ros2controlcli:/home/gursel/robotics_ws/install/robotic_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_interface/lib:/home/gursel/robotics_ws/install/hardware_interface/lib:/home/gursel/robotics_ws/install/controller_manager_msgs/lib:/usr/local/cuda/lib64:/home/gursel/robotics_ws/install/transmission_interface/lib:/home/gursel/robotics_ws/install/controller_manager/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/gursel/robotics_ws/build/controller_manager -- -j8 -l8
+[0.444s] Invoking command in '/home/gursel/robotics_ws/build/controller_manager': CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs:/home/gursel/robotics_ws/install/ros2_control:/home/gursel/robotics_ws/install/transmission_interface:/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/joint_limits:/home/gursel/robotics_ws/install/rqt_controller_manager:/home/gursel/robotics_ws/install/ros2controlcli:/home/gursel/robotics_ws/install/robotic_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_interface/lib:/home/gursel/robotics_ws/install/hardware_interface/lib:/home/gursel/robotics_ws/install/controller_manager_msgs/lib:/usr/local/cuda/lib64:/home/gursel/robotics_ws/install/transmission_interface/lib:/home/gursel/robotics_ws/install/controller_manager/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/gursel/robotics_ws/build/controller_manager
+[0.449s] -- Install configuration: ""
+[0.449s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/lib/libcontroller_manager.so
+[0.449s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/lib/controller_manager/ros2_control_node
+[0.449s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/include
+[0.449s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/include/controller_manager
+[0.449s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/include/controller_manager/visibility_control.h
+[0.449s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/include/controller_manager/controller_spec.hpp
+[0.450s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/include/controller_manager/controller_manager.hpp
+[0.450s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[0.450s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/lib/libtest_controller.so
+[0.450s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[0.450s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/lib/libtest_controller_failed_init.so
+[0.450s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+[0.450s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/lib/libtest_chainable_controller.so
+[0.450s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[0.450s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[0.450s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[0.450s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[0.450s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.23.0-py3.10.egg-info
+[0.450s] -- Installing: /home/gursel/robotics_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.23.0-py3.10.egg-info/SOURCES.txt
+[0.450s] -- Installing: /home/gursel/robotics_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.23.0-py3.10.egg-info/top_level.txt
+[0.450s] -- Installing: /home/gursel/robotics_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.23.0-py3.10.egg-info/dependency_links.txt
+[0.450s] -- Installing: /home/gursel/robotics_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.23.0-py3.10.egg-info/entry_points.txt
+[0.451s] -- Installing: /home/gursel/robotics_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.23.0-py3.10.egg-info/PKG-INFO
+[0.451s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/lib/controller_manager/
+[0.451s] -- Installing: /home/gursel/robotics_ws/install/controller_manager/lib/controller_manager//spawner
+[0.451s] -- Installing: /home/gursel/robotics_ws/install/controller_manager/lib/controller_manager//unspawner
+[0.451s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager
+[0.451s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py
+[0.451s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py
+[0.451s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py
+[0.451s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py
+[0.451s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py
+[0.475s] Listing '/home/gursel/robotics_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager'...
+[0.479s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+[0.479s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[0.479s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[0.479s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[0.479s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[0.479s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[0.479s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/environment/path.sh
+[0.479s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+[0.479s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/local_setup.bash
+[0.479s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/local_setup.sh
+[0.479s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+[0.479s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+[0.480s] -- Installing: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/package.dsv
+[0.480s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[0.480s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[0.480s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[0.480s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.480s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.480s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[0.480s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[0.480s] -- Up-to-date: /home/gursel/robotics_ws/install/controller_manager/share/controller_manager/package.xml
+[0.482s] Invoked command in '/home/gursel/robotics_ws/build/controller_manager' returned '0': CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs:/home/gursel/robotics_ws/install/ros2_control:/home/gursel/robotics_ws/install/transmission_interface:/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/joint_limits:/home/gursel/robotics_ws/install/rqt_controller_manager:/home/gursel/robotics_ws/install/ros2controlcli:/home/gursel/robotics_ws/install/robotic_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_interface/lib:/home/gursel/robotics_ws/install/hardware_interface/lib:/home/gursel/robotics_ws/install/controller_manager_msgs/lib:/usr/local/cuda/lib64:/home/gursel/robotics_ws/install/transmission_interface/lib:/home/gursel/robotics_ws/install/controller_manager/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/gursel/robotics_ws/build/controller_manager

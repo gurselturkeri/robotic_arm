@@ -1,0 +1,4 @@
+Invoking command in '/home/gursel/robotics_ws/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gursel/robotics_ws/build/joint_limits -- -j8 -l8
+Invoked command in '/home/gursel/robotics_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gursel/robotics_ws/build/joint_limits -- -j8 -l8
+Invoking command in '/home/gursel/robotics_ws/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gursel/robotics_ws/build/joint_limits
+Invoked command in '/home/gursel/robotics_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gursel/robotics_ws/build/joint_limits

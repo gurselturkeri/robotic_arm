@@ -1,0 +1,51 @@
+[0.604s] Invoking command in '/home/gursel/robotics_ws/src/ros2_control/rqt_controller_manager': AMENT_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gursel/robotics_ws/build/rqt_controller_manager/prefix_override:/home/gursel/robotics_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/gursel/robotics_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rqt_controller_manager build --build-base /home/gursel/robotics_ws/build/rqt_controller_manager/build install --record /home/gursel/robotics_ws/build/rqt_controller_manager/install.log --single-version-externally-managed
+[0.839s] running egg_info
+[0.840s] creating ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info
+[0.840s] writing ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/PKG-INFO
+[0.840s] writing dependency_links to ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/dependency_links.txt
+[0.840s] writing entry points to ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/entry_points.txt
+[0.840s] writing requirements to ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/requires.txt
+[0.840s] writing top-level names to ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/top_level.txt
+[0.841s] writing manifest file '../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/SOURCES.txt'
+[0.842s] reading manifest file '../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/SOURCES.txt'
+[0.843s] writing manifest file '../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/SOURCES.txt'
+[0.843s] running build
+[0.843s] running build_py
+[0.843s] creating /home/gursel/robotics_ws/build/rqt_controller_manager/build
+[0.843s] creating /home/gursel/robotics_ws/build/rqt_controller_manager/build/lib
+[0.843s] creating /home/gursel/robotics_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager
+[0.843s] copying rqt_controller_manager/main.py -> /home/gursel/robotics_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager
+[0.843s] copying rqt_controller_manager/update_combo.py -> /home/gursel/robotics_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager
+[0.843s] copying rqt_controller_manager/controller_manager.py -> /home/gursel/robotics_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager
+[0.843s] copying rqt_controller_manager/__init__.py -> /home/gursel/robotics_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager
+[0.843s] running install
+[0.844s] running install_lib
+[0.844s] creating /home/gursel/robotics_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager
+[0.844s] copying /home/gursel/robotics_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager/main.py -> /home/gursel/robotics_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager
+[0.844s] copying /home/gursel/robotics_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager/update_combo.py -> /home/gursel/robotics_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager
+[0.844s] copying /home/gursel/robotics_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager/controller_manager.py -> /home/gursel/robotics_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager
+[0.845s] copying /home/gursel/robotics_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager/__init__.py -> /home/gursel/robotics_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager
+[0.845s] byte-compiling /home/gursel/robotics_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager/main.py to main.cpython-310.pyc
+[0.845s] byte-compiling /home/gursel/robotics_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager/update_combo.py to update_combo.cpython-310.pyc
+[0.846s] byte-compiling /home/gursel/robotics_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager/controller_manager.py to controller_manager.cpython-310.pyc
+[0.848s] byte-compiling /home/gursel/robotics_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager/__init__.py to __init__.cpython-310.pyc
+[0.848s] running install_data
+[0.848s] creating /home/gursel/robotics_ws/install/rqt_controller_manager/share/ament_index
+[0.848s] creating /home/gursel/robotics_ws/install/rqt_controller_manager/share/ament_index/resource_index
+[0.848s] creating /home/gursel/robotics_ws/install/rqt_controller_manager/share/ament_index/resource_index/packages
+[0.848s] copying resource/rqt_controller_manager -> /home/gursel/robotics_ws/install/rqt_controller_manager/share/ament_index/resource_index/packages
+[0.848s] copying package.xml -> /home/gursel/robotics_ws/install/rqt_controller_manager/share/rqt_controller_manager
+[0.849s] creating /home/gursel/robotics_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[0.849s] copying resource/controller_info.ui -> /home/gursel/robotics_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[0.849s] copying resource/controller_manager.ui -> /home/gursel/robotics_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[0.849s] copying resource/led_green.png -> /home/gursel/robotics_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[0.849s] copying resource/led_off.png -> /home/gursel/robotics_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[0.849s] copying resource/cm_icon.png -> /home/gursel/robotics_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[0.849s] copying resource/led_red.png -> /home/gursel/robotics_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[0.849s] copying plugin.xml -> /home/gursel/robotics_ws/install/rqt_controller_manager/share/rqt_controller_manager
+[0.849s] running install_egg_info
+[0.850s] Copying ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info to /home/gursel/robotics_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager-2.23.0-py3.10.egg-info
+[0.851s] running install_scripts
+[0.867s] Installing rqt_controller_manager script to /home/gursel/robotics_ws/install/rqt_controller_manager/lib/rqt_controller_manager
+[0.867s] writing list of installed files to '/home/gursel/robotics_ws/build/rqt_controller_manager/install.log'
+[0.897s] Invoked command in '/home/gursel/robotics_ws/src/ros2_control/rqt_controller_manager' returned '0': AMENT_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gursel/robotics_ws/build/rqt_controller_manager/prefix_override:/home/gursel/robotics_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/gursel/robotics_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rqt_controller_manager build --build-base /home/gursel/robotics_ws/build/rqt_controller_manager/build install --record /home/gursel/robotics_ws/build/rqt_controller_manager/install.log --single-version-externally-managed

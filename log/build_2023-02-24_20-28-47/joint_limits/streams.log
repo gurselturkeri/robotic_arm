@@ -1,0 +1,10 @@
+[0.018s] Invoking command in '/home/gursel/robotics_ws/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gursel/robotics_ws/build/joint_limits -- -j8 -l8
+[0.054s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.054s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.740s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[0.760s] [ 50%] Built target gtest_main
+[3.142s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.277s] [ 66%] Built target gtest
+[3.329s] [ 83%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+[8.353s] [100%] [32m[1mLinking CXX executable joint_limits_rosparam_test[0m
+[8.501s] [100%] Built target joint_limits_rosparam_test

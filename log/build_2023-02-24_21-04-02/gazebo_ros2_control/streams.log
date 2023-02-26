@@ -1,0 +1,103 @@
+[0.268s] Invoking command in '/home/gursel/robotics_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs:/home/gursel/robotics_ws/install/ros2_control:/home/gursel/robotics_ws/install/transmission_interface:/home/gursel/robotics_ws/install/joint_limits:/home/gursel/robotics_ws/install/rqt_controller_manager:/home/gursel/robotics_ws/install/ros2controlcli:/home/gursel/robotics_ws/install/robotic_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_manager/lib:/home/gursel/robotics_ws/install/controller_interface/lib:/home/gursel/robotics_ws/install/hardware_interface/lib:/home/gursel/robotics_ws/install/controller_manager_msgs/lib:/usr/local/cuda/lib64:/home/gursel/robotics_ws/install/transmission_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/gursel/robotics_ws/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/gursel/robotics_ws/install/gazebo_ros2_control
+[0.276s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.392s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.393s] -- Found controller_manager: 2.23.0 (/home/gursel/robotics_ws/install/controller_manager/share/controller_manager/cmake)
+[0.418s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.420s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.426s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.449s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.031s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.033s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.058s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.740s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[1.746s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.747s] -- Checking for module 'bullet>=2.82'
+[1.756s] --   Found bullet, version 3.05
+[1.824s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.854s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.879s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.907s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.927s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.948s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.962s] -- Searching for dependencies of ignition-math6
+[1.964s] -- Looking for OGRE...
+[1.965s] -- OGRE_PREFIX_WATCH changed.
+[1.970s] -- Checking for module 'OGRE'
+[1.978s] --   Found OGRE, version 1.9.0
+[1.998s] -- Found Ogre Ghadamon (1.9.0)
+[2.006s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.014s] -- Looking for OGRE_Paging...
+[2.018s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.018s] -- Looking for OGRE_Terrain...
+[2.023s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.023s] -- Looking for OGRE_Property...
+[2.028s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.028s] -- Looking for OGRE_RTShaderSystem...
+[2.032s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.032s] -- Looking for OGRE_Volume...
+[2.037s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.037s] -- Looking for OGRE_Overlay...
+[2.041s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.139s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.142s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.142s] -- Searching for dependencies of ignition-transport8
+[2.157s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.166s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.169s] -- Checking for module 'libzmq >= 4'
+[2.179s] --   Found libzmq , version 4.3.4
+[2.199s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.203s] -- Checking for module 'uuid'
+[2.211s] --   Found uuid, version 2.37.2
+[2.230s] -- Found UUID: TRUE  
+[2.233s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.233s] -- Searching for dependencies of ignition-msgs5
+[2.248s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.252s] -- Checking for module 'tinyxml2'
+[2.260s] --   Found tinyxml2, version 9.0.0
+[2.280s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.282s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.282s] -- Searching for dependencies of ignition-common3
+[2.283s] -- Looking for dlfcn.h - found
+[2.284s] -- Looking for libdl - found
+[2.285s] -- Found DL: TRUE  
+[2.293s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.294s] -- Searching for <ignition-common3> component [graphics]
+[2.296s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.296s] -- Searching for dependencies of ignition-common3-graphics
+[2.297s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.299s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.299s] -- Searching for dependencies of ignition-fuel_tools4
+[2.350s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.358s] -- Checking for module 'jsoncpp'
+[2.366s] --   Found jsoncpp, version 1.9.5
+[2.385s] -- Found JSONCPP: TRUE  
+[2.389s] -- Checking for module 'libzip'
+[2.397s] --   Found libzip, version 1.7.3
+[2.416s] -- Found ZIP: TRUE  
+[2.417s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.417s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.417s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.421s] -- Gazebo version: 11.10
+[2.421s] -- Checking for module 'tbb'
+[2.430s] --   Found tbb, version 2021.5.0
+[2.457s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[2.457s]   By not providing "Findgazebo_ros.cmake" in CMAKE_MODULE_PATH this project
+[2.457s]   has asked CMake to find a package configuration file provided by
+[2.457s]   "gazebo_ros", but CMake did not find one.
+[2.457s] 
+[2.457s]   Could not find a package configuration file provided by "gazebo_ros" with
+[2.458s]   any of the following names:
+[2.458s] 
+[2.458s]     gazebo_rosConfig.cmake
+[2.458s]     gazebo_ros-config.cmake
+[2.458s] 
+[2.458s]   Add the installation prefix of "gazebo_ros" to CMAKE_PREFIX_PATH or set
+[2.458s]   "gazebo_ros_DIR" to a directory containing one of the above files.  If
+[2.458s]   "gazebo_ros" provides a separate development package or SDK, be sure it has
+[2.458s]   been installed.
+[2.458s] 
+[2.458s] [0m
+[2.458s] -- Configuring incomplete, errors occurred!
+[2.458s] See also "/home/gursel/robotics_ws/build/gazebo_ros2_control/CMakeFiles/CMakeOutput.log".
+[2.466s] Invoked command in '/home/gursel/robotics_ws/build/gazebo_ros2_control' returned '1': CMAKE_PREFIX_PATH=/home/gursel/robotics_ws/install/controller_manager:/home/gursel/robotics_ws/install/controller_interface:/home/gursel/robotics_ws/install/hardware_interface:/home/gursel/robotics_ws/install/ros2_control_test_assets:/home/gursel/robotics_ws/install/controller_manager_msgs:/home/gursel/robotics_ws/install/ros2_control:/home/gursel/robotics_ws/install/transmission_interface:/home/gursel/robotics_ws/install/joint_limits:/home/gursel/robotics_ws/install/rqt_controller_manager:/home/gursel/robotics_ws/install/ros2controlcli:/home/gursel/robotics_ws/install/robotic_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/gursel/robotics_ws/install/controller_manager/lib:/home/gursel/robotics_ws/install/controller_interface/lib:/home/gursel/robotics_ws/install/hardware_interface/lib:/home/gursel/robotics_ws/install/controller_manager_msgs/lib:/usr/local/cuda/lib64:/home/gursel/robotics_ws/install/transmission_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/gursel/robotics_ws/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/gursel/robotics_ws/install/gazebo_ros2_control

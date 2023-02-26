@@ -1,0 +1,22 @@
+In file included from [01m[K/home/gursel/robotics_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:15[m[K:
+[01m[K/home/gursel/robotics_ws/src/ros2_control/controller_manager/include/controller_manager/controller_manager.hpp:[m[K In constructor ‘[01m[Kcontroller_manager::ControllerManager::ControllerManager(std::shared_ptr<rclcpp::Executor>, const string&, const string&, const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/gursel/robotics_ws/src/ros2_control/controller_manager/include/controller_manager/controller_manager.hpp:360:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontroller_manager::ControllerManager::chainable_loader_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  360 |     [01;35m[Kchainable_loader_[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gursel/robotics_ws/src/ros2_control/controller_manager/include/controller_manager/controller_manager.hpp:354:31:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdiagnostic_updater::Updater controller_manager::ControllerManager::diagnostics_updater_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  354 |   diagnostic_updater::Updater [01;35m[Kdiagnostics_updater_[m[K;
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gursel/robotics_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:140:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  140 | [01;35m[KControllerManager[m[K::ControllerManager(
+      | [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/gursel/robotics_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:15[m[K:
+[01m[K/home/gursel/robotics_ws/src/ros2_control/controller_manager/include/controller_manager/controller_manager.hpp:[m[K In constructor ‘[01m[Kcontroller_manager::ControllerManager::ControllerManager(std::unique_ptr<hardware_interface::ResourceManager>, std::shared_ptr<rclcpp::Executor>, const string&, const string&, const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/gursel/robotics_ws/src/ros2_control/controller_manager/include/controller_manager/controller_manager.hpp:360:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontroller_manager::ControllerManager::chainable_loader_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  360 |     [01;35m[Kchainable_loader_[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gursel/robotics_ws/src/ros2_control/controller_manager/include/controller_manager/controller_manager.hpp:354:31:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdiagnostic_updater::Updater controller_manager::ControllerManager::diagnostics_updater_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  354 |   diagnostic_updater::Updater [01;35m[Kdiagnostics_updater_[m[K;
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gursel/robotics_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:173:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  173 | [01;35m[KControllerManager[m[K::ControllerManager(
+      | [01;35m[K^~~~~~~~~~~~~~~~~[m[K

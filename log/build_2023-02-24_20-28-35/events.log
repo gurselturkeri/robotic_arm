@@ -1,0 +1,15 @@
+[0.000000] (-) TimerEvent: {}
+[0.000361] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.000644] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.000662] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.000676] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.000689] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.000702] (-) JobUnselected: {'identifier': 'robotic_arm'}
+[0.000715] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.000727] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.000740] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.000752] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.000769] (ros2_control) JobQueued: {'identifier': 'ros2_control', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/gursel/robotics_ws/install/controller_manager_msgs'), ('joint_limits', '/home/gursel/robotics_ws/install/joint_limits'), ('ros2_control_test_assets', '/home/gursel/robotics_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/gursel/robotics_ws/install/hardware_interface'), ('controller_interface', '/home/gursel/robotics_ws/install/controller_interface'), ('transmission_interface', '/home/gursel/robotics_ws/install/transmission_interface'), ('controller_manager', '/home/gursel/robotics_ws/install/controller_manager'), ('ros2controlcli', '/home/gursel/robotics_ws/install/ros2controlcli')])}
+[0.001552] (ros2_control) JobStarted: {'identifier': 'ros2_control'}
+[0.014364] (ros2_control) JobEnded: {'identifier': 'ros2_control', 'rc': 1}
+[0.025159] (-) EventReactorShutdown: {}

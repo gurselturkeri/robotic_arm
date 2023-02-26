@@ -1,0 +1,105 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found hardware_interface: 2.23.0 (/home/gursel/robotics_ws/install/hardware_interface/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ament_cmake_gmock: 1.3.3 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gursel/robotics_ws/build/transmission_interface
+[  9%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/simple_transmission_loader.cpp.o[0m
+[  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/four_bar_linkage_transmission_loader.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/differential_transmission_loader.cpp.o[0m
+[ 23%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 28%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 33%] Built target gmock_main
+[ 38%] [32m[1mLinking CXX shared library libtransmission_interface.so[0m
+[ 42%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 42%] Built target transmission_interface
+[ 42%] Built target gmock
+[ 47%] [32mBuilding CXX object CMakeFiles/test_simple_transmission_loader.dir/test/simple_transmission_loader_test.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/test_differential_transmission_loader.dir/test/differential_transmission_loader_test.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission.dir/test/four_bar_linkage_transmission_test.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/test_differential_transmission.dir/test/differential_transmission_test.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission_loader.dir/test/four_bar_linkage_transmission_loader_test.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable test_simple_transmission[0m
+[ 80%] [32m[1mLinking CXX executable test_differential_transmission[0m
+[ 85%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission[0m
+[ 85%] Built target test_simple_transmission
+[ 85%] Built target test_differential_transmission
+[ 85%] Built target test_four_bar_linkage_transmission
+[ 90%] [32m[1mLinking CXX executable test_simple_transmission_loader[0m
+[ 95%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission_loader[0m
+[ 95%] Built target test_simple_transmission_loader
+[100%] [32m[1mLinking CXX executable test_differential_transmission_loader[0m
+[100%] Built target test_four_bar_linkage_transmission_loader
+[100%] Built target test_differential_transmission_loader
+-- Install configuration: ""
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/include
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/include/transmission_interface
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/include/transmission_interface/simple_transmission_loader.hpp
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission_loader.hpp
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/include/transmission_interface/transmission_loader.hpp
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/include/transmission_interface/visibility_control.h
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/include/transmission_interface/differential_transmission_loader.hpp
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/include/transmission_interface/accessor.hpp
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/include/transmission_interface/transmission.hpp
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/include/transmission_interface/exception.hpp
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/include/transmission_interface/handle.hpp
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/include/transmission_interface/transmission_interface_exception.hpp
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/ros2_control_plugins.xml
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/lib/libtransmission_interface.so
+-- Set runtime path of "/home/gursel/robotics_ws/install/transmission_interface/lib/libtransmission_interface.so" to ""
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/environment/library_path.sh
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/environment/library_path.dsv
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/environment/path.sh
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/environment/path.dsv
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/local_setup.bash
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/local_setup.sh
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/local_setup.zsh
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/local_setup.dsv
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/package.dsv
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/ament_index/resource_index/transmission_interface__pluginlib__plugin/transmission_interface
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+-- Installing: /home/gursel/robotics_ws/install/transmission_interface/share/transmission_interface/package.xml
