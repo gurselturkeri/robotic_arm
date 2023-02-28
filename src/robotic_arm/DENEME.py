@@ -1,43 +1,56 @@
-import rclpy
-from rclpy.node import Node
-from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
-import ikpy.chain as ikc
-import numpy as np
+from launch import LaunchDescription
+from launch.actions import IncludeLaunchDescription, ExecuteProcess
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.substitutions import FindPackageShare, LaunchConfiguration, Command
+from launch_ros.actions import Node
+from launch_ros.substitutions import FindPackageShare
+from ament_index_python.packages import get_package_share_directory
 
-class TrajectoryPublisher(Node):
-    def __init__(self):
-        super().__init__('trajectory_publisher')
-        self.pub = self.create_publisher(JointTrajectory, '/joint_trajectory_controller/joint_trajectory', 10)
-        self.timer = self.create_timer(0.1, self.timer_callback) #10hz
-        self.kuka_robot = None
-        self.robot_initialize('/home/gursel/robotics_ws/src/robotic_arm/urdf/robotic_arm.urdf') #replace with your URDF file
+def generate_launch_description():
+    # Set the path to the URDF file
+    robot_description_path = LaunchConfiguration('robot_description_path', default=get_package_share_directory('my_robot_description') + '/urdf/my_robot.urdf')
 
-    def robot_initialize(self, urdf_file):
-        self.kuka_robot = ikc.Chain.from_urdf_file(urdf_file)
+    # Set the path to the camera URDF file
+    camera_description_path = LaunchConfiguration('camera_description_path', default=get_package_share_directory('my_robot_description') + '/urdf/my_camera.urdf.xacro')
 
-    def inverse_kinematics(self, x, y, z):
-        target_position = [x, y, z]
-        target_orientation = [0, 0, 0, 1] #default orientation
-        joint_angles = self.kuka_robot.inverse_kinematics(target_position, target_orientation)
-        if joint_angles is not None:
-            #publish joint trajectory
-            trajectory_msg = JointTrajectory()
-            trajectory_msg.joint_names = ['joint_1', 'joint_2', 'joint_4']
-            point = JointTrajectoryPoint()
-            point.positions = joint_angles
-            point.time_from_start = self.get_clock().now().to_msg() + rclpy.duration.Duration(seconds=1) #1 second duration
-            trajectory_msg.points.append(point)
-            self.pub.publish(trajectory_msg)
+    # Set the path to the Gazebo world file
+    world_file_path = LaunchConfiguration('world_file_path', default=get_package_share_directory('my_robot_description') + '/worlds/my_world.world')
 
-    def timer_callback(self):
-        self.inverse_kinematics(0.5, 0.5, 0.5) #example target position
+    # Load the robot description
+    robot_description = {'robot_description': Command(['xacro ', robot_description_path])}
 
-def main(args=None):
-    rclpy.init(args=args)
-    trajectory_publisher = TrajectoryPublisher()
-    rclpy.spin(trajectory_publisher)
-    trajectory_publisher.destroy_node()
-    rclpy.shutdown()
+    # Launch the Gazebo simulator
+    gazebo_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([
+            FindPackageShare('gazebo_ros'), '/launch', '/gazebo.launch.py'
+        ]),
+        launch_arguments={'world': world_file_path}.items(),
+    )
 
-if __name__ == '__main__':
-    main()
+    # Spawn the robot model in Gazebo
+    spawn_entity = Node(
+        package='gazebo_ros', executable='spawn_entity.py', output='screen',
+        arguments=['-topic', 'robot_description', '-entity', 'my_robot', '-file', robot_description_path],
+    )
+
+    # Add the camera to the robot model
+    add_camera = Node(
+        package='gazebo_ros', executable='spawn_entity.py', output='screen',
+        arguments=['-topic', 'my_camera_description', '-entity', 'my_camera', '-x', '0.5', '-z', '1.0'],
+        env={'GAZEBO_MODEL_PATH': get_package_share_directory('my_robot_description') + '/models'},
+    )
+    add_camera.set_parameter_file(camera_description_path)
+
+    # Start the camera plugin
+    camera_plugin = Node(
+        package='gazebo_ros', executable='camera',
+        arguments=['-camera_name', 'my_camera', '-topic', 'my_camera/image_raw'],
+        remappings=[('camera_info', 'my_camera/camera_info')],
+    )
+
+    return LaunchDescription([
+        gazebo_launch,
+        spawn_entity,
+        add_camera,
+        camera_plugin,
+    ])

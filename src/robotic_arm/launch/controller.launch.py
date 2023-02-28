@@ -31,6 +31,14 @@ def generate_launch_description():
         parameters=[robot_description]
     )
 
+    camera_node = Node(
+        package='camera_ros',
+        executable='camera_ros',
+        name='camera_ros',
+        output='screen',
+  
+    )
+
     gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             [FindPackageShare('gazebo_ros'), '/launch', '/gazebo.launch.py']
@@ -53,6 +61,8 @@ def generate_launch_description():
              'joint_trajectory_controller'],
         output='screen'
     )
+    
+   
 
     return LaunchDescription([
         RegisterEventHandler(
@@ -67,7 +77,9 @@ def generate_launch_description():
                 on_exit=[load_trajectory_controller],
             )
         ),
+    
         gazebo,
+        camera_node,
         node_robot_state_publisher,
         spawn_entity,
     ])
